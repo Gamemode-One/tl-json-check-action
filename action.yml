@@ -1,0 +1,8 @@
+name: "JSON Check"
+description: "Validates JSON to JSON5"
+inputs:
+    dirs-to-check:
+        description: "Directories to check JSON files in"
+runs:
+    using: "node16"
+    main: "index.js"
